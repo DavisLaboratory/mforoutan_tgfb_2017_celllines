@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/77968598.svg)](https://zenodo.org/badge/latestdoi/77968598)
 
 # Docker image for  Foroutan et al. paper
 
