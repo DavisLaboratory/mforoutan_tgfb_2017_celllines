@@ -23,6 +23,6 @@ RUN chmod 700 /home/davislab/data/integrative_analysis/out_10data_check
 RUN mv /mforoutan_paper_rdata_2/Heiser /home/davislab/data/Heiser
 RUN mv /mforoutan_paper_rdata_2/COSMIC /home/davislab/data/COSMIC
 RUN (Rscript -e 'install.packages(c("dplyr","hexbin","colorRamps","survival","XML","ggplot2","matrixStats"), repos="http://cran.rstudio.com/")')
-RUN (Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(c("limma","GSVA", "sva","org.Hs.eg.db"))')  
+RUN (Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite(c("limma","GSEABase","GSVA", "sva","org.Hs.eg.db"))')  
 WORKDIR /mforoutan_tgfb_2017_celllines
 RUN mv generate_all_experiments.R /home/davislab
