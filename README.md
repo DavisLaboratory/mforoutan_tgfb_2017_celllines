@@ -18,7 +18,7 @@ Momeneh Foroutan, Joseph Cursons, Soroor Hediyeh-Zadeh, Erik W. Thompson and Mel
 Download and install [Docker](https://docs.docker.com). Start Docker and run the following command:
 
 ```
-docker run -p 49000:8787 -d davislaboratory/mforoutan_tgfb_paper_2016
+docker run -p 49000:8787 -d davislaboratory/mforoutan_tgfb_2017_celllines
 
 ```
 
